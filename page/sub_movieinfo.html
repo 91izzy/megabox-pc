@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>MEET PLAY SHARE, 메가박스</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/web-font.css">
+	<script src="../js/jquery-3.6.0.min.js"></script>
+</head>
+<body id="sub_movieinfo" class="sub movieinfo">
+	<div class="wrapper">
+
+	<!-- skip 네비게이션 -->
+	<a href="#main" id="skip-nav">본문 바로가기</a>
+
+  <!-- header -->
+  <header id="header" class="sub header">
+    <div class="container">
+      <h1>
+        <a href="../index.html">
+          <img src="../img/logo_new2.png" alt="MEGABOX MEET PLAY SHARE">
+        </a>
+      </h1>
+      <ul class="header-menu1">
+        <li><a href="#">VIP LOUNGE</a></li>
+        <li><a href="#">멤버쉽</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+      <ul class="header-menu2">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">빠른예매</a></li>
+      </ul>
+      <nav class="gnb">
+        <ul class="gnb-left clearfix">
+          <li class="">
+            <a href="#"><img src="../img/gnb-txt-movie.png" alt="영화"></a>
+            <ul class="sub-gnb-movie">
+                <li><a href="#">전체영화</a></li>
+                <li><a href="#">큐레이션</a></li>
+                <li><a href="#">무비포스트</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><img src="../img/gnb-txt-reserve.png" alt="예매"></a>
+            <ul class="sub-gnb-reserve">
+                <li><a href="#">빠른예매</a></li>
+                <li><a href="#">상영시간표</a></li>
+                <li><a href="#">더 부티크 프라이빗 예매</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./page/sub_theater.html"><img src="../img/gnb-txt-theater.png" alt="극장"></a>
+            <ul class="sub-gnb-theater">
+                <li><a href="#">전체극장</a></li>
+                <li><a href="#">특별관</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="gnb-right clearfix">
+          <li class="">
+            <a href="#"><img src="../img/gnb-txt-event.png" alt="이벤트"></a>
+            <ul class="sub-gnb-event">
+                <li><a href="#">진행중 이벤트</a></li>
+                <li><a href="#">지난 이벤트</a></li>
+                <li><a href="#">당첨자발표</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><img src="../img/gnb-txt-store.png" alt="스토어"></a>
+            <ul class="sub-gnb-store">
+                <li><a href="#">새로운 상품</a></li>
+                <li><a href="#">메가티켓</a></li>
+                <li><a href="#">메가찬스</a></li>
+                <li><a href="#">팝콘/음료/굿즈</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><img src="../img/gnb-txt-benefit.png" alt="혜택"></a>
+            <ul class="sub-gnb-benefit">
+                <li><a href="#">메가박스 멤버쉽</a></li>
+                <li><a href="#">제휴/할인</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="header_icon_left">
+        <a href="#layer_header_sitemap" class="header_icon menu_sitemap">메뉴 열기/닫기</a>
+        <a href="#layer_header_search" class="header_icon menu_search">검색창 열기</a>
+      </div>
+      <div class="header_icon_right">
+        <a href="#" class="header_icon menu_schedule">상영시간표 열기</a>
+        <a href="#layer_header_mypage" class="header_icon menu_mypage">나의 메가박스</a>
+      </div>
+    </div>
+    <div id="layer_header_sitemap" class="header_layer">
+      	<div class="container">
+        	<em>SITEMAP</em>
+        	<div class="sitemap-list">
+              <p>영화</p>
+              <ul>
+                <li><a href="#">전체영화</a></li>
+                <li><a href="#">큐레이션</a></li>
+                <li><a href="#">영화제</a></li>
+                <li><a href="#">무비포스트</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list">
+              <p>예매</p>
+              <ul>
+                <li><a href="#">빠른예매</a></li>
+                <li><a href="#">상영시간표</a></li>
+                <li><a href="#">더 부티크 프라이빗 예매</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list">
+              <p>극장</p>
+              <ul>
+                <li><a href="#">전체극장</a></li>
+                <li><a href="#">특별관</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list">
+              <p>이벤트</p>
+              <ul>
+                <li><a href="#">진행중 이벤트</a></li>
+                <li><a href="#">지난 이벤트</a></li>
+                <li><a href="#">당첨자발표</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list">
+              <p>스토어</p>
+              <ul>
+                <li><a href="#">새로운상품</a></li>
+                <li><a href="#">메가티켓</a></li>
+                <li><a href="#">메가찬스</a></li>
+                <li><a href="#">팝콘/음료/굿즈</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list">
+              <p>나의 메가박스</p>
+              <ul>
+                <li><a href="#">나의 메가박스 홈</a></li>
+                <li><a href="#">예매/구매내역</a></li>
+                <li><a href="#">영화관람권</a></li>
+                <li><a href="#">스토어교환권</a></li>
+                <li><a href="#">할인/제휴쿠폰</a></li>
+                <li><a href="#">멤버쉽포인트</a></li>
+                <li><a href="#">나의 무비스토리</a></li>
+                <li><a href="#">나의 이벤트 응모내역</a></li>
+                <li><a href="#">나의 문의내역</a></li>
+                <li><a href="#">자주쓰는 할인 카드</a></li>
+                <li><a href="#">회원정보</a></li>
+              </ul>
+        	</div>
+        	<div class="sitemap-list sitemap-list07">
+        		<p>혜택</p>
+        		<ul>
+        			<li><a href="#">멤버십 안내</a></li>
+        			<li><a href="#">VIP LOUNGE</a></li>
+        			<li><a href="#">제휴/할인</a></li>
+        		</ul>
+        	</div>
+        	<div class="sitemap-list sitemap-list08">
+        		<p>고객센터</p>
+        		<ul>
+        			<li><a href="#">고객센터 홈</a></li>
+        			<li><a href="#">자주묻는질문</a></li>
+        			<li><a href="#">공지사항</a></li>
+        			<li><a href="#">1:1문의</a></li>
+        			<li><a href="#">단체/대관문의</a></li>
+        			<li><a href="#">분실물문의</a></li>
+        		</ul>
+        	</div>
+        	<div class="sitemap-list sitemap-list09">
+        		<p>회사소개</p>
+        		<ul>
+        			<li><a href="#">메가박스소개</a></li>
+        			<li><a href="#">사회공헌</a></li>
+        			<li><a href="#">홍보자료</a></li>
+        			<li><a href="#">제휴/부대사업문의</a></li>
+        			<li><a href="#">온라인제보센터</a></li>
+        			<li><a href="#">IR자료</a></li>
+        			<li><a href="#">인재채용</a></li>
+        			<li><a href="#">윤리경영</a></li>
+        		</ul>
+        	</div>
+        	<div class="sitemap-list sitemap-list10">
+        		<p>이용정책</p>
+        		<ul>
+        			<li><a href="#">이용약관</a></li>
+        			<li><a href="#">위치기반서비스 이용약관</a></li>
+        			<li><a href="#">개인정보처리방침</a></li>
+        			<li><a href="#">스크린수배정에관한기준</a></li>
+        		</ul>
+        	</div>
+      	</div>
+      </div>
+    <div id="layer_header_search" class="header_layer">
+      <div class="container">
+        <div class="search-tab">
+        	<ul>
+        		<li class="on"><a href="#">예매율 순</a></li>
+        		<li><a href="#">메가박스관객순</a></li>
+        	</ul>
+        	<div class="rank-cont">
+          	<div class="rank1">
+          	<img src="../img/QDUC0cjm2bnWDCCQPYpQvelnoFe1CCfH_316.jpg" alt="헌트 HUNT">
+						<ol>
+							<li>
+								<em>1</em>
+								<a href="#">헌트</a>
+							</li>
+							<li>
+								<em>2</em>
+								<a href="#">놉</a>
+							</li>
+							<li>
+								<em>3</em>
+								<a href="#">한산: 용의 출현</a>
+							</li>
+							<li>
+								<em>4</em>
+								<a href="#">탑건: 매버릭</a>
+							</li>
+							<li>
+								<em>5</em>
+								<a href="#">육사오(6/45)</a>
+							</li>
+						</ol>
+          </div>
+          	<div class="rank2">
+          	<img src="../img/QDUC0cjm2bnWDCCQPYpQvelnoFe1CCfH_316.jpg" alt="헌트 HUNT">
+						<ol>
+							<li>
+								<em>1</em>
+								<a href="#">헌트</a>
+							</li>
+							<li>
+								<em>2</em>
+								<a href="#">놉</a>
+							</li>
+							<li>
+								<em>3</em>
+								<a href="#">한산: 용의 출현</a>
+							</li>
+							<li>
+								<em>4</em>
+								<a href="#">탑건: 매버릭</a>
+							</li>
+							<li>
+								<em>5</em>
+								<a href="#">육사오(6/45)</a>
+							</li>
+						</ol>
+          </div>
+          </div>
+        </div>
+        <div class="input">
+          <label for="search-keyword" class="ir_pm">검색어</label>
+          <input type="text" name="" id="search-keyword" value="" placeholder="영화를 검색하세요" class="input-text">
+          <a href="#"><img src="../img/btn-header-search.png" alt="검색"></a>
+        </div>
+      </div>
+    </div>
+    <div id="layer_header_mypage" class="header_layer">
+      	<div class="container">
+          <p>
+            로그인 하시면 나의 메가박스를 만날 수 있어요.<br />
+            영화를 사랑하는 당신을 위한 꼭 맞는 혜택까지 확인해 보세요!
+          </p>
+          <a href="#" class="btn_login">로그인</a>
+          <a href="#" class="btn_join">혹시 아직 회원이 아니신가요?</a>
+      	</div>
+      </div>
+    <a href="#" id="scroll_top" title="상단이동"><img src="../img/btn-go-top.png" alt="처음으로 이동(스크롤)"></a>
+  </header>
+
+	<!-- contents -->
+	<main id="main">
+	
+	<!-- 서브페이지 메뉴 -->
+	<section id="sub_sitemenu" class="sub_sitemenu">
+		<div class="container">
+			<ul>
+				<li><span class="ir_pm">홈</span></li>
+				<li><a href="#">영화</a></li>
+				<li><a href="#">전체영화</a></li>
+				<li><a href="#">박스오피스</a></li>
+			</ul>
+		</div>
+	</section>
+	
+	<!-- 영화 포스터 및 소개 -->
+	<section id="movie_visual" class="movie_visual">
+		<div class="movie_bg"></div>
+		<div class="movie_bg_pattern"></div>
+		<div class="movie_bg_mask"></div>
+		<div class="container clearfix">
+			<h2 class="ir_pm">영화 포스터 및 소개</h2>
+			<div class="movie_desc">
+				<div class="movie_tit">
+					<h3>명탐정 코난: 할로윈의 신부</h3>
+					<em>Detective Conan: The Bride of Halloween</em>
+					<a href="#" class="btn_like"><span>좋아요</span><span>1.6k</span></a>
+					<a href="#" class="btn_share"><span>좋아요</span><span>공유하기</span></a>
+				</div>
+				<div class="movie_score">
+					<div class="score">
+						<p>실관람 평점</p>
+						<span>9.5</span>
+					</div>
+					<div class="rate">
+						<p>예매율</p>
+						<span><em>12</em> 위 (1.4%)</span>
+					</div>
+					<div class="audience">
+						<p>누적관객수</p>
+						<span><em>401,287</em> 명</span>
+					</div>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<img src="../img/conan.jpg" alt="명탐정 코난: 할로윈의 신부">
+				<a href="#" class="booking">예매</a>
+			</div>
+		</div>
+	</section>
+	
+	<!-- 영화 주요 정보 -->
+	<section id="movie_info">
+		<h2 class="ir_pm">영화 주요 정보</h2>
+		<div class="movie_info_tabmenu">
+		
+			<div class="tab_btn">
+				<div class="container">
+					<ul class="clearfix">
+						<li class="on"><a href="#tab_cont1" class="tab_btn">주요정보</a></li>
+						<li><a href="#tab_cont2" class="tab_btn">실관람평</a></li>
+						<li><a href="#tab_cont3" class="tab_btn">무비포스트</a></li>
+						<li><a href="#tab_cont4" class="tab_btn">예고편/스틸컷</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="tab_cont">
+				<div id="tab_cont1" class="cont tab_cont1">
+					<div class="movie_info">
+						<div class="container">
+							<div class="movie_info_txt1">
+								<em>트리플 페이스 아무로 토오루, 그의 목에 폭탄이 채워졌다?!</em>
+								<p>
+									극악무도한 폭파범 ‘플라먀’에 의해 교묘한 함정에 빠진 아무로 토오루!<br />
+									모든 것이 베일에 가려진 ‘플라먀’,<br />
+									유일한 단서는 아무로 토오루가 그의 경찰 동기들과 마지막으로 함께 했던 하루.<br />
+									이와 동시에 결혼식의 신부가 된 경시청의 사토 형사는 불길한 예감을 감출 수 없는데…<br />
+									<br />
+									도시 전체를 인질로 삼은 ‘플라먀’,<br />
+									그리고 이를 막으려 하는 아무로 토오루와 명탐정 코난의 숨 막히는 공조!<br />
+									다시 시작된 카운트다운, 할로윈의 밤이 광란으로 빛난다!
+								</p>
+								<a href="#" class="toggle_close"><span>더보기</span></a>
+							</div>
+							<div class="movie_info_txt2">
+								<span>상영타입 : 2D(더빙), 2D(자막)</span>
+								<span>감독 : 미츠나카 스스무</span>
+								<span>장르 : 애니메이션 / 110 분 </span>
+								<span>등급 : 12세이상관람가</span>
+								<span>개봉일 : 2022.07.13</span>
+							</div>
+							<div class="movie_graph">
+								<div class="col col1">
+									<dl>
+										<dt>관람포인트</dt>
+										<dd>스토리·연출</dd>
+										<img src="../img/d1.png" alt="">
+									</dl>
+								</div>
+								<div class="col col2">
+									<dl>
+										<dt>실관람 평점</dt>
+										<dd>9.5</dd>
+										<dt>예매율</dt>
+										<dd>1.7%</dd>
+									</dl>
+								</div>
+								<div class="col col3">
+									<dl>
+										<dt>누적관객수</dt>
+										<dd>401,287</dd>
+										<img src="../img/d2.png" alt="">
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="movie_review">
+						<div class="container">
+							<em>명탐정 코난: 할로윈의 신부에 대한 2,518개의 이야기가 있어요!</em>
+							<div class="review_write clearfix">
+								<div class="review_profile">
+									<img src="../img/ico-mega-profile.png" alt="">
+									<span>MEGABOX</span>
+								</div>
+								<div class="review_txt">
+									<div>
+										<div class="review_txt1"><p><span>명탐정 코난: 할로윈의 신부</span> 재미있게 보셨나요? 영화의 어떤 점이 좋았는지 이야기해주세요.</p></div>
+										<div class="review_txt2"><a href="#">관람평쓰기</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="movie_post">
+						<div class="container">
+							<h3>무비포스트</h3>
+							<a href="#" class="more">더보기</a>
+							<div class="post_list_box">
+							<ul class="post_list clearfix">
+								<li>
+									<a href="#">
+										<img src="../img/dGZhEagegbM4Kc3RvSRUcjITpBh30QlG_230.jpg" alt="">
+										<div class="post_txt">
+											<span class="post_id">mturss**</span>
+											<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+											<span class="post_desc">재미있어요 ㅎㅎ 감사합니다 </span>
+											<span class="post_time">2 시간전</span>
+										</div>
+										<div class="post_btn">
+											<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+											<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../img/LGaMSEji92LRwwf27PuIbLnWiM8YFRVc_230.jpg" alt="">
+										<div class="post_txt">
+											<span class="post_id">lhj09**</span>
+											<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+											<span class="post_desc">좋아요 재밌어요 </span>
+											<span class="post_time">2 시간전</span>
+										</div>
+										<div class="post_btn">
+											<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+											<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../img/t8E2jVmLuUc90mmFOx2AuqVSz9er99UW_230.jpg" alt="">
+										<div class="post_txt">
+											<span class="post_id">been42**</span>
+											<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+											<span class="post_desc">기대안하고 갔는데 진짜 재밌네요!</span>
+											<span class="post_time">2 시간전</span>
+										</div>
+										<div class="post_btn">
+											<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+											<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../img/xWq17lIVlDcHaFG6xhw7qs2thloRgjuF_230.jpg" alt="">
+										<div class="post_txt">
+											<span class="post_id">bagazi**</span>
+											<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+											<span class="post_desc">이번이 3번째였는데 볼수록 재밌어요</span>
+											<span class="post_time">2 시간전</span>
+										</div>
+										<div class="post_btn">
+											<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+											<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+					<div class="event">
+						<div class="container">
+							<h3>이벤트</h3>
+							<a href="#" class="more">더보기</a>
+							<ul>
+								<li><a href="#"><img src="../img/XG1FzLPzqPVbDNYF5WzVakgkZHXZZQ0t.jpg" alt=""></a></li>
+								<li><a href="#"><img src="../img/cUwqCGJEmOVK5nvhIXlX77GtTgbSHMOM.jpg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="tab_cont2" class="cont tab_cont2">
+					<div class="container">
+						<div class="tab_cont review_list">
+							<div class="movie_review">
+						<div class="container">
+							<em>명탐정 코난: 할로윈의 신부에 대한 2,518개의 이야기가 있어요!</em>
+							<div class="review_write clearfix">
+								<div class="review_profile">
+									<img src="../img/ico-mega-profile.png" alt="">
+									<span>MEGABOX</span>
+								</div>
+								<div class="review_txt">
+									<div>
+										<div class="review_txt1"><p><span>명탐정 코난: 할로윈의 신부</span> 재미있게 보셨나요? 영화의 어떤 점이 좋았는지 이야기해주세요.</p></div>
+										<div class="review_txt2"><a href="#">관람평쓰기</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+							<div class="review_user clearfix">
+								<div class="user_profile">
+									<img src="../img/bg-photo.png" alt="">
+									<span>yjyyls97**</span>
+								</div>
+								<div class="user_coment">
+									<div>
+										<div><span>관람평</span></div>
+										<div><span>10</span></div>
+										<div><span>연출</span><span>OST</span></div>
+										<div><span>재밌어서 여러번 보고 왔어요😆 최근 코난 극장판 중에서는 제일 좋았어요~</span></div>
+										<div><a href="#"><span>좋아요</span><span>0</span></a></div>
+										<div><a href="#" class="btn_option">옵션보기</a></div>
+									</div>
+								</div>
+								<div class="user_coment_date"><span>8 분전</span></div>
+							</div>
+						</div>
+					</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab_cont3" class="cont tab_cont3">
+					<div class="container">
+						<div class="tab_cont post_list">
+							<em>명탐정 코난: 할로윈의 신부에 대한 88건의 무비포스트가 있어요!</em>
+							<div class="movie_post">
+								<h3>무비포스트</h3>
+								<a href="#" class="more">더보기</a>
+								<div class="post_list_box">
+									<ul class="post_list clearfix">
+										<li>
+											<a href="#">
+												<img src="../img/dGZhEagegbM4Kc3RvSRUcjITpBh30QlG_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">mturss**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">재미있어요 ㅎㅎ 감사합니다 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/LGaMSEji92LRwwf27PuIbLnWiM8YFRVc_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">lhj09**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">좋아요 재밌어요 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/t8E2jVmLuUc90mmFOx2AuqVSz9er99UW_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">been42**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">기대안하고 갔는데 진짜 재밌네요!</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/xWq17lIVlDcHaFG6xhw7qs2thloRgjuF_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">bagazi**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">이번이 3번째였는데 볼수록 재밌어요</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/dGZhEagegbM4Kc3RvSRUcjITpBh30QlG_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">mturss**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">재미있어요 ㅎㅎ 감사합니다 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/LGaMSEji92LRwwf27PuIbLnWiM8YFRVc_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">lhj09**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">좋아요 재밌어요 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/t8E2jVmLuUc90mmFOx2AuqVSz9er99UW_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">been42**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">기대안하고 갔는데 진짜 재밌네요!</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/xWq17lIVlDcHaFG6xhw7qs2thloRgjuF_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">bagazi**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">이번이 3번째였는데 볼수록 재밌어요</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/dGZhEagegbM4Kc3RvSRUcjITpBh30QlG_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">mturss**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">재미있어요 ㅎㅎ 감사합니다 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/LGaMSEji92LRwwf27PuIbLnWiM8YFRVc_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">lhj09**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">좋아요 재밌어요 </span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/t8E2jVmLuUc90mmFOx2AuqVSz9er99UW_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">been42**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">기대안하고 갔는데 진짜 재밌네요!</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="../img/xWq17lIVlDcHaFG6xhw7qs2thloRgjuF_230.jpg" alt="">
+												<div class="post_txt">
+													<span class="post_id">bagazi**</span>
+													<span class="post_tit">명탐정 코난: 할로윈의 신부</span>
+													<span class="post_desc">이번이 3번째였는데 볼수록 재밌어요</span>
+													<span class="post_time">2 시간전</span>
+												</div>
+												<div class="post_btn">
+													<a href="#"><span class="like">좋아요</span><span class="like_num">0</span></a>
+													<a href="#"><span class="coment">코멘트</span><span class="coment_num">0</span></a>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab_cont4" class="cont tab_cont4">
+					<div class="container">
+						<div class="tab_cont teaser_list">
+							<p><span>예고편(7)</span><span>스틸컷(18)</span></p>
+							<em>메인 예고편</em>
+							<div class="teaser_slide">
+								<div class="teaser_slide_box">
+									<ul class="slide">
+										<li class="on">
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_1_poster.jpg" class="pc">
+												<source src="../img/teaser_1.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_2_poster.jpg" class="pc">
+												<source src="../img/teaser_2.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_3_poster.jpg" class="pc">
+												<source src="../img/teaser_3.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_4_poster.jpg" class="pc">
+												<source src="../img/teaser_4.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_5_poster.jpg" class="pc">
+												<source src="../img/teaser_5.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_6_poster.jpg" class="pc">
+												<source src="../img/teaser_6.mp4" type="video/mp4" />
+											</video>
+										</li>
+										<li>
+											<video muted="muted" controls="true" preload="auto" loop="loop" poster="../img/teaser_7_poster.jpg" class="pc">
+												<source src="../img/teaser_7.mp4" type="video/mp4" />
+											</video>
+										</li>
+									</ul>
+									<p class="control">
+										<a href="#" class="prev"><img alt="이전" src="../img/ico-prev-circle.png" /><span>이전 영상</span></a>
+										<a href="#" class="next"><img alt="다음" src="../img/ico-next-circle.png" /><span>다음 영상</span></a>
+									</p>
+								</div>
+								<div class="indicator_slide">
+									<div class="indicator_box">
+										<ul class="indicator">
+										<li><a href="#"><img src="../img/teaser_pre_01.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_02.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_03.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_04.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_05.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_06.jpg" alt=""></a></li>
+										<li><a href="#"><img src="../img/teaser_pre_07.jpg" alt=""></a></li>
+									</ul>
+									</div>
+									<p class="indicator_control">
+										<a href="#" class="prev"><img alt="이전" src="../img/btn-prev.png" /></a>
+										<a href="#" class="next"><img alt="다음" src="../img/btn-next.png" /></a>
+									</p>
+								</div>
+							</div>
+							<div class="stair">
+								<em>명탐정 코난: 할로윈의 신부에 대한 18개의 스틸컷이 있어요!</em>
+								<div class="stair_img">
+									<div class="stair_img_wrapper">
+										<a href="#"><img src="../img/stair_img_01.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_02.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_03.jpg" alt=""></a>
+									</div>
+									<div class="stair_img_wrapper">
+										<a href="#"><img src="../img/stair_img_01.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_02.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_03.jpg" alt=""></a>
+									</div>
+									<div class="stair_img_wrapper">
+										<a href="#"><img src="../img/stair_img_01.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_02.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_03.jpg" alt=""></a>
+									</div>
+									<div class="stair_img_wrapper">
+										<a href="#"><img src="../img/stair_img_01.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_02.jpg" alt=""></a>
+										<a href="#"><img src="../img/stair_img_03.jpg" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	</main>
+	
+  <!-- footer -->
+  <footer id="footer" class="clearfix">
+		<div class="container">
+			<div class="footer-top">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">사회공헌</a></li>
+					<li><a href="#">제휴/광고/부대사업문의</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">위치기반서비스 이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">윤리경영</a></li>
+				</ul>
+				<a href="#"><img src="../img/ico-footer-search.png" alt="">극장찾기</a>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-logo">MEGABOX : Life Theater</div>
+				<div class="footer-info">
+					<address>서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장)</address>
+					<span>ARS 1544-0070</span>
+					<p>
+						대표자명 홍정인 · 개인정보보호책임자 공성진 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 2020-서울마포-4545 호<br />
+						COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+					</p>
+				</div>
+				<div class="footer-sns">
+					<a href="#">유튜브</a>
+					<a href="#">인스타그램</a>
+					<a href="#">페이스북</a>
+					<a href="#">트위터</a>
+				</div>
+			</div>
+		</div>
+  </footer>
+	
+	</div>
+	<script>
+	'use strict';
+
+
+	// 사이트맵 열기/닫기
+	$('#header .header_icon_left .menu_sitemap').on('click', function() {
+		$('#layer_header_sitemap').toggleClass('on');
+	});
+
+	document.querySelector('#header .header_icon_left .menu_sitemap').addEventListener('click', function() {
+		document.querySelector('.header_icon_left .menu_sitemap').classList.toggle('on');
+	});
+
+
+	// 검색창 열기/닫기
+	$('#header .header_icon_left .menu_search').on('click', function() {
+		$('#layer_header_search').toggleClass('on');
+	});
+
+	document.querySelector('#header .header_icon_left .menu_search').addEventListener('click', function() {
+		document.querySelector('.header_icon_left .menu_search').classList.toggle('on');
+	}, false);
+
+
+	// 로그인 열기/닫기
+	$('#header .header_icon_right .menu_mypage').on('click', function() {
+		$('#layer_header_mypage').toggleClass('on');
+	});
+
+	document.querySelector('#header .header_icon_right .menu_mypage').addEventListener('click', function() {
+		document.querySelector('.header_icon_right .menu_mypage').classList.toggle('on');
+	});
+
+
+
+	/*
+	// 헤더 서브메뉴 열기
+	$('#header nav.gnb > ul.gnb-left > li a').on('mouseenter', function() {
+		$('#header').removeClass('open');
+		$('#header').addClass('open');
+		$('#header nav.gnb > ul.gnb-left > li').removeClass('open');
+		$(this).parent().addClass('open');
+	});
+
+	$('#header nav.gnb > ul.gnb-right > li a').on('mouseenter', function() {
+		$('#header').removeClass('open');
+		$('#header').addClass('open');
+		$('#header nav.gnb > ul.gnb-right > li').removeClass('open');
+		$(this).parent().addClass('open');
+	});
+	*/
+
+
+	// 헤더 서브메뉴 열기
+	 $('#header nav.gnb > ul > li > a').on('mouseenter', function() {
+		$('#header').addClass('open');
+		$('#header nav.gnb > ul > li').removeClass('open');
+		$(this).parent('li').addClass('open');
+	});  
+
+	// 헤더 서브메뉴 닫기
+	$('#header').on('mouseleave', function() {
+		$('#header').removeClass('open');
+		$('#header nav.gnb > ul > li').removeClass('open');
+	});
+
+	// scroll top
+	$(window).on('scroll', function() {
+		let scrollAmt = $(document).scrollTop();
+		if (scrollAmt > 200) {
+			$('.sub_sitemenu').addClass('fixed');
+			$('#scroll_top').addClass('on');
+			$('#sub_movieinfo #movie_visual').addClass('fixed');
+		} else {
+			$('.sub_sitemenu').removeClass('off');
+			$('#scroll_top').removeClass('on');
+			$('#sub_movieinfo #movie_visual').removeClass('fixed');
+		}
+	});
+		
+	$('#scroll_top').on('click', function() {
+		$('html').stop().animate({'scrollTop': 0}, 300);
+	});
+	
+	
+	const tabBtn = document.querySelectorAll('.movie_info_tabmenu .tab_btn ul li');
+	const contents = document.querySelectorAll('.movie_info_tabmenu .tab_cont .cont');
+	let activeCont = ''; // 현재 활성화 된 컨텐츠
+	
+	for(let i = 0; i < tabBtn.length; i++) {
+		tabBtn[i].querySelector('.tab_btn').addEventListener('click', function(e) {
+			e.preventDefault();
+			
+			for(let j = 0; j < tabBtn.length; j++) {
+				tabBtn[j].classList.remove('on'); // 나머지 버튼 클래스 제거
+				contents[j].style.display = 'none'; // 나머지 컨텐츠 안보이게
+			}
+			// 버튼 이벤트
+			this.parentNode.classList.add('on');
+			
+			// 버튼 클릭시 컨텐츠 전환
+			activeCont = this.getAttribute('href');
+			document.querySelector(activeCont).style.display = 'block';
+		});
+	}
+
+		
+		
+		
+		
+
+</script>
+</body>
+</html>

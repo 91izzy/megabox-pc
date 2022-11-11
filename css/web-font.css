@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+       url('../font/NanumBarunGothicSubset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+       url('../font/NanumBarunGothicBoldSubset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('※'),
+       url('../font/Roboto-Light.woff2') format('woff2'),
+       url('../font/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+       url('../font/Roboto-Regular.woff2') format('woff2'),
+       url('../font/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+       url('../font/Roboto-Medium.woff2') format('woff2'),
+       url('../font/Roboto-Medium.woff') format('woff');
+}
